@@ -1,0 +1,46 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+}
+
+/* サイドバー */
+
+.side-bar {
+  width: 300px;
+  background-color: #253141;
+}
+
+.side-header {
+  height: 100px;
+  padding: 0px 20px;
+}
+
+.side-main {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0px 20px;
+}
+
+/* メイン */
+
+.main-wrapper {
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
+
+.main-header {
+  height: 100px;
+  padding: 0px 40px;
+}
+
+.main-messages {
+  height: calc(100vh - 190px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0px;
+}
+
+.main-form {
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+}
