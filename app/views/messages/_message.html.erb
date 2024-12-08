@@ -1,7 +1,7 @@
 <div class="main-messages">
     <div class="main-message">
       <div class="messenger-name"><%= message.user.name %></div>
-      <p class="datetime"><%= message.created_at %></p>
+      <p class="datetime"><%= l message.created_at %></p>
     </div>
     <div class="chat-message"><%= message.content %></div>
 </div>
