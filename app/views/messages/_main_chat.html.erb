@@ -8,7 +8,9 @@
 </div>
 
 <div class="messages">
-  <%= render partial: 'message', collection: @messages %>
+  <div class="main-messages">
+    <%= render partial: 'message', collection: @messages %>
+  </div>
 </div>
 
 <div class="main-form">
